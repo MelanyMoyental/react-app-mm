@@ -1,11 +1,14 @@
-import ItemListContainer from "./components/ItemListContainer";
 import NavBar from "./components/NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CartWidget from "./components/CartWidget";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App () {
     return (
          <div>
              <NavBar/>
-             <ItemListContainer greeting ="Bienvenidos a GretiShop"/>
+             <CartWidget/>
+             <ItemListContainer Bienvenido={"Bienvenido a GretiShop"}/>
           </div>
     );
 }

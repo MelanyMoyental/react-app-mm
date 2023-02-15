@@ -4,7 +4,7 @@ export const CartWidget = () => {
  return (
     <>
         <span class="material-symbols-outlined">
-        shopping_cart
+          shopping_cart
         </span>
     </>
   );
