@@ -9,3 +9,8 @@
     flex-direction: row-reverse;
     font-size: 50px;
 }
+
+.Cart{
+    display:flex;
+    flex-direction: row-reverse;
+}

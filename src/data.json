@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Excellent Cat",
+      "price": 15.000,
+      "img": "assets/comida-cat.png",
+      "description":
+        "Alimento para gato con sensibilidad digestiva x 15 kg",
+      "stock": 3,
+      "category": "Alimentos"
+    },
+    {
+      "id": 2,
+      "name": "Excellent Dog",
+      "price": 15.000,
+      "img": "assets/comida-dog.png",
+      "description":
+        "Alimento para perro con sensibilidad digestiva x 15 kg",
+      "stock": 5,
+      "category": "Alimentos"
+    },
+    {
+      "id": 3,
+      "name": "Cama Desmontable",
+      "price": 6.500,
+      "img": "assets/cama.png",
+      "description":
+        "Cama desmontable grande 65 x 85 cm",
+      "stock": 3,
+      "category": "Accesorios"
+    },
+    {
+      "id": 4,
+      "name": "Collares",
+      "price": 1.100,
+      "img": "assets/collares.png",
+      "description":
+        "Collar pequeño talle S",
+      "stock": 5,
+      "category": "Accesorios"
+    },
+    {
+    "id": 5,
+    "name": "Rodillo",
+    "price": 1.000,
+    "img": "assets/rodillo.png",
+    "description":
+      "Rodillo junta pelo",
+    "stock": 3,
+    "category": "Higiene"
+  },
+  {
+    "id": 6,
+    "name": "Loción",
+    "price": 1.500,
+    "img": "assets/locion.png",
+    "description":
+      "Loción para perros y gatos con atomizador x 130 ml",
+    "stock": 5,
+    "category": "Higiene"
+  }
+  ]
