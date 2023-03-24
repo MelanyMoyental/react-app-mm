@@ -1,56 +1,26 @@
-import React from "react";
-import Catcomida from "../assets/comida-cat.png";
-import Dogcomida from "../assets/comida-dog.png";
-import Locion from "../assets/locion.png";
-import Cama from "../assets/cama.png";
-import Collares from "../assets/collares.png";
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import cama from '../assets/cama.png';
 
-import {
-  Center,
-  Card,
-  CardBody,
-  Image,
-  Heading,
-  Text,
-  Divider,
-  Stack,
-  CardFooter,
-  Button,
-} from "@chakra-ui/react";
+function Item (props) {
 
-import { Link } from "react-router-dom";
-const Item = ({ id, img, name, stock, category }) => {
+  const { id, name, price,stock } = props.data;
+
   return (
     <div>
-      <div key={id}>
-        <Center p="1rem">
-          <Card className="card-main">
-            <CardBody>
-              <Image borderRadius="lg" src={img} />
-              <Stack mt="6" spacing="3">
-                <Heading size="md">{name}</Heading>
-
-                <Text color="blue.800" fontSize="l">
-                  Category: {category}
-                </Text>
-                <Text color="red.600" fontSize="xl">
-                  Stock: {stock}
-                </Text>
-              </Stack>
-            </CardBody>
-            <Divider />
-            <CardFooter className="card-footer">
-              <Center className="btn-center">
-                <Button variant="solid" colorScheme="blue">
-                  <Link to={`/item/${id}`}>Detalles</Link>
-                </Button>
-              </Center>
-            </CardFooter>
-          </Card>
-        </Center>
+      <div key = {id}>
+      <Card style={{ width: '15rem', height: '100rem', margin: '3px', border: 'solid 2px black'}}>
+        <img src={cama}/>
+        <Card.Body>
+          <Card.Title>{name}</Card.Title>
+          <Card.Text>Price:{price}</Card.Text>
+          <Card.Text>Stock:{stock}</Card.Text>
+          <button>Details</button>
+        </Card.Body>
+      </Card>
       </div>
     </div>
   );
-};
+}
 
 export default Item;

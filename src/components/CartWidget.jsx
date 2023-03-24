@@ -5,10 +5,10 @@ import React from "react";
     <>
       <div className="Cart">
        <button>
-        <span class="material-symbols-outlined">
+         <span class="material-symbols-outlined">
           shopping_cart
-        </span>
-        <span>5</span>
+         </span>
+         <span>5</span>
         </button>
       </div>
     </>
